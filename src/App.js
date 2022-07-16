@@ -8,6 +8,8 @@ import Blog from './pages/Blog/Blog'
 import OurStory from './pages/OurStory/OurStory'
 import Footer from './components/Footer/Footer'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
+import Contacts from './pages/Contact/Contacts'
+import NotFound from './pages/NotFound/NotFound'
 
 function App() {
 	return (
@@ -22,7 +24,9 @@ function App() {
 					<Route path='shop' element={<Shop />} />
 					<Route path='blog' element={<Blog />} />
 					<Route path='our-story' element={<OurStory />} />
+					<Route path='contacts' element={<Contacts />} />
 					<Route path='privacy-policy' element={<PrivacyPolicy />} />
+					<Route path='*' element={<NotFound />} />
 				</Routes>
 			</main>
 

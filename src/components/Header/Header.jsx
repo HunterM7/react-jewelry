@@ -16,13 +16,19 @@ const Header = () => {
 			<div className={styles.header__block}>
 				<ul className={styles.links}>
 					<li className={styles.links__item}>
-						<NavLink to='shop'>Shop</NavLink>
+						<NavLink className={styles.links__link} to='shop'>
+							Shop
+						</NavLink>
 					</li>
 					<li className={styles.links__item}>
-						<NavLink to='blog'>Blog</NavLink>
+						<NavLink className={styles.links__link} to='blog'>
+							Blog
+						</NavLink>
 					</li>
 					<li className={styles.links__item}>
-						<NavLink to='our-story'>Our Story</NavLink>
+						<NavLink className={styles.links__link} to='our-story'>
+							Our Story
+						</NavLink>
 					</li>
 				</ul>
 				<ul className={styles.icons}>

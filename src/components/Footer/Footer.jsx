@@ -8,7 +8,9 @@ const Footer = () => {
 		<div className={styles.footer}>
 			<div className={styles.firstLine}>
 				<ul className={styles.links}>
-					<li className={styles.links__item}>contact</li>
+					<li className={styles.links__item}>
+						<NavLink to='contacts'>contact</NavLink>
+					</li>
 					<li className={styles.links__item}>terms of services</li>
 					<li className={styles.links__item}>shipping and returns</li>
 				</ul>
