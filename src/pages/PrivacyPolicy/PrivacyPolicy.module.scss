@@ -1,0 +1,30 @@
+//? == Privacy Policy ==
+
+@import '../../scss/vars';
+
+.wrapper {
+	padding: 96px 0;
+
+	border-top: 1px solid $color-gray-light;
+}
+
+.container {
+	width: 100%;
+	max-width: 670px;
+
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+
+	margin-bottom: 40px;
+}
+
+.subtitle {
+	margin-bottom: 24px;
+}
+
+.text {
+	margin-bottom: 40px;
+}

@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 import styles from './Header.module.scss'
 
-import searchIcon from '../../assets/img/search-icon.svg'
-import cartIcon from '../../assets/img/cart-icon.svg'
-import userIcon from '../../assets/img/user-icon.svg'
+import searchIcon from '../../assets/img/icons/search-icon.svg'
+import cartIcon from '../../assets/img/icons/cart-icon.svg'
+import userIcon from '../../assets/img/icons/user-icon.svg'
 
 const Header = () => {
 	return (
-		<header className={styles.header}>
+		<div className={styles.header}>
 			<NavLink to='/' className={styles.header__logo}>
 				SHOPPE
 			</NavLink>
@@ -37,7 +37,7 @@ const Header = () => {
 					</li>
 				</ul>
 			</div>
-		</header>
+		</div>
 	)
 }
 
