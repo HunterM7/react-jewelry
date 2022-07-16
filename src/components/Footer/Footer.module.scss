@@ -1,0 +1,36 @@
+//? == Footer ==
+
+@import '../../scss/vars';
+
+.footer {
+}
+
+.firstLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+
+	margin-bottom: 50px;
+}
+
+.secondLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	&__item {
+		text-transform: uppercase;
+
+		&:not(:last-of-type) {
+			margin-right: 40px;
+		}
+	}
+}
