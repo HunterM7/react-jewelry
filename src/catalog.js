@@ -2,7 +2,8 @@ const catalog = [
 	{
 		title: 'Lira Earrings',
 		price: 20,
-		oldPrice: 20,
+		oldPrice: 25,
+		quantity: 30,
 		weight: 0.3,
 		dimensions: '15 x 10 x 1',
 		material: ['metal'],
@@ -16,6 +17,7 @@ const catalog = [
 		title: 'Hal Earrings',
 		price: 25,
 		oldPrice: 25,
+		quantity: 30,
 		weight: 0.3,
 		dimensions: '15 x 10 x 1',
 		material: ['metal'],
@@ -28,7 +30,8 @@ const catalog = [
 	{
 		title: 'Kaede Hair Pin Set Of 3',
 		price: 30,
-		oldPrice: 30,
+		oldPrice: 40,
+		quantity: 30,
 		weight: 0.3,
 		dimensions: '15 x 10 x 1',
 		material: ['metal'],
@@ -37,6 +40,48 @@ const catalog = [
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.',
 		imgUrl: '/img/catalog/catalog-item-3.jpg',
+	},
+	{
+		title: 'Hair Pin Set of 3',
+		price: 30,
+		oldPrice: 30,
+		quantity: 30,
+		weight: 0.3,
+		dimensions: '15 x 10 x 1',
+		material: ['metal'],
+		rating: 4,
+		categories: ['Fashion', 'Style'],
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.',
+		imgUrl: '/img/catalog/catalog-item-4.jpg',
+	},
+	{
+		title: 'Hal Earrings',
+		price: 19,
+		oldPrice: 19,
+		quantity: 0,
+		weight: 0.3,
+		dimensions: '15 x 10 x 1',
+		material: ['metal'],
+		rating: 4,
+		categories: ['Fashion', 'Style'],
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.',
+		imgUrl: '/img/catalog/catalog-item-5.jpg',
+	},
+	{
+		title: 'Kaede Hair Pin Set Of 3',
+		price: 24,
+		oldPrice: 29,
+		quantity: 30,
+		weight: 0.3,
+		dimensions: '15 x 10 x 1',
+		material: ['metal'],
+		rating: 4,
+		categories: ['Fashion', 'Style'],
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.',
+		imgUrl: '/img/catalog/catalog-item-6.jpg',
 	},
 ]
 

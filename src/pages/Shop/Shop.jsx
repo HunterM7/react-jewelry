@@ -1,16 +1,28 @@
 import React from 'react'
 
+import styles from './Shop.module.scss'
+
 import catalog from '../../catalog'
 import CatalogItem from '../../components/CatalogItem/CatalogItem'
 
 const Shop = () => {
 	return (
-		<div>
-			<h1>Shop page</h1>
+		<div className={styles.wrapper}>
+			<h1 className={styles.title}>Shop The Latest</h1>
 
-			{catalog.map((el) => {
-				return <CatalogItem {...el} />
-			})}
+			<div className={styles.grid}>
+				<aside className={styles.grid__aside}></aside>
+
+				<ul className={styles.catalog}>
+					{catalog.map((el, i) => {
+						return (
+							<li key={i} className={styles.catalog__item}>
+								<CatalogItem {...el} />
+							</li>
+						)
+					})}
+				</ul>
+			</div>
 		</div>
 	)
 }

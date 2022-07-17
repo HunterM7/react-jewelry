@@ -3,9 +3,48 @@
 @import '../../scss/vars';
 
 .wrapper {
-	max-width: 300px;
+	width: 300px;
+
+	position: relative;
 }
 
 .img {
 	width: 100%;
+	height: 300px;
+
+	object-position: center;
+	object-fit: cover;
+
+	border-radius: 8px;
+
+	margin-bottom: 24px;
+}
+
+.title {
+	margin-bottom: 16px;
+}
+
+.price {
+	color: $color-accent-light;
+}
+
+.discount {
+	display: none;
+
+	position: absolute;
+	top: 16px;
+	left: 16px;
+
+	padding: 8px;
+
+	font-size: 12px;
+	font-weight: 400;
+	color: $color-white-light;
+
+	border-radius: 4px;
+	background-color: $color-accent-light;
+
+	&.active {
+		display: block;
+	}
 }

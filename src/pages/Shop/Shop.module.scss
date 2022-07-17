@@ -1,0 +1,39 @@
+//? == Shop ==
+
+@import '../../scss/vars';
+
+.wrapper {
+	padding: 96px 0;
+
+	border-top: 1px solid $color-gray-light;
+}
+
+.title {
+	margin-bottom: 40px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 260px 1fr;
+	column-gap: 36px;
+
+	&__aside {
+		position: sticky;
+		top: 40px;
+
+		height: 420px;
+
+		background-color: green;
+		position: sticky;
+	}
+}
+
+.catalog {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: repeat(3, 1fr);
+	row-gap: 70px;
+
+	&__item {
+	}
+}
